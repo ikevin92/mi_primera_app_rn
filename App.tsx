@@ -1,7 +1,8 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import FlexScreen from './src/screens/FlexScreen';
+import TareaScreen from './src/screens/TareaScreen';
 // import BoxObjectModelScreen from './src/screens/BoxObjectModelScreen';
+// import FlexScreen from './src/screens/FlexScreen';
 // import ContadorScreen from './src/screens/ContadorScreen';
 // import HolaMundoScreen from './src/screens/HolaMundoScreen';
 // import DimensionesScreen from './src/screens/DimensionesScreen';
@@ -9,13 +10,14 @@ import FlexScreen from './src/screens/FlexScreen';
 
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#28425b' }}>
       {/* <HolaMundoScreen />
        <ContadorScreen /> */}
       {/* <BoxObjectModelScreen /> */}
       {/* <DimensionesScreen /> */}
       {/* <PositionScreen /> */}
-      <FlexScreen />
+      {/* <FlexScreen /> */}
+      <TareaScreen />
     </SafeAreaView>
   );
 };

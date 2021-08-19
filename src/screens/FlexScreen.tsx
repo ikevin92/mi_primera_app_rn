@@ -17,11 +17,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28c4d9',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    flexWrap: 'wrap'
   },
   caja1: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    alignSelf: 'flex-start',
   },
   caja2: {
     borderWidth: 2,
