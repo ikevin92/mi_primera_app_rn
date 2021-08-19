@@ -1,11 +1,22 @@
 import React from 'react';
-import ContadorScreen from './src/screens/ContadorScreen';
-import HolaMundoScreen from './src/screens/HolaMundoScreen';
+import { SafeAreaView } from 'react-native';
+import FlexScreen from './src/screens/FlexScreen';
+// import BoxObjectModelScreen from './src/screens/BoxObjectModelScreen';
+// import ContadorScreen from './src/screens/ContadorScreen';
+// import HolaMundoScreen from './src/screens/HolaMundoScreen';
+// import DimensionesScreen from './src/screens/DimensionesScreen';
+// import PositionScreen from './src/screens/PositionScreen';
 
 const App = () => {
   return (
-    // <HolaMundoScreen />
-    <ContadorScreen />
+    <SafeAreaView style={{ flex: 1 }}>
+      {/* <HolaMundoScreen />
+       <ContadorScreen /> */}
+      {/* <BoxObjectModelScreen /> */}
+      {/* <DimensionesScreen /> */}
+      {/* <PositionScreen /> */}
+      <FlexScreen />
+    </SafeAreaView>
   );
 };
 
